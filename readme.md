@@ -1,4 +1,4 @@
-## Elasticsearch connector
+## Elasticsearch connector for Nette
 Extension for using Elastica client in Nette aplications.
 Functional for connecting to Elasticsearch 6.1
 Class is focused to autoload config values for Elastica and instantiate client.
