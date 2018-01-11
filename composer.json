@@ -1,5 +1,5 @@
 {
-  "name": "flandera/elastica_extension",
+  "name": "flandera/elasticsearch",
   "type": "library",
   "description": "Elastica Nette extension",
   "homepage": "https://github.com/flandera/ElasticaExtension",
