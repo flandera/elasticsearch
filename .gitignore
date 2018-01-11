@@ -1,0 +1,27 @@
+# DESCRIPTION FOR IGNORING FILES AND FOLDERS
+# ==========================================
+#
+# The trailing `/*` is significant:
+#
+# The pattern `directory/` excludes a directory named directory and (implicitly) everything under it.
+# With `directory/`, Git will never look at anything under directory, and thus will never apply
+# any of the "un-exclude" patterns to anything under directory.
+#
+# The pattern `directory/*` says nothing about directory itself, so it just excludes everything under directory.
+# With `directory/*`, Git will process the direct contents of directory, giving other patterns a chance
+# to "un-exclude" some bit of the content (!directory/subdirectory/)
+
+vendor/*
+!vendor/other/
+app/CoreModule/config/config.local.neon
+bs-config.json
+log
+temp
+node_modules
+bower_components
+npm-debug.log
+nbproject
+websrc/scripts/all.*.js
+*.map
+tests/_output/*
+.idea

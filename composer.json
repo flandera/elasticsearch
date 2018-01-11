@@ -1,0 +1,23 @@
+{
+  "name": "flandera/elastica_extension",
+  "type": "library",
+  "description": "Elastica Nette extension",
+  "homepage": "https://github.com/flandera/ElasticaExtension",
+  "keywords": [ "Elasticsearch", "Connector", "Nette extension", "Elastica"],
+  "license": [ "BSD-3-Clause", "GPL-2.0", "GPL-3.0" ],
+  "authors": [
+    {
+    "name": "Tomáš Flandera",
+    "company": ""
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ruflin/elastica": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flandera\\ElasticaExtension\\": "src/"
+    }
+  }
+}
